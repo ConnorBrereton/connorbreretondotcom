@@ -1,0 +1,242 @@
+     
+    /* NAV */
+
+    #nav {
+/*      background-color: #CCC;*/
+      height: 70px;
+    }
+
+    #nav .logo {
+      text-align: left;
+      font-weight: 700;
+      padding-top: 20px;
+    }
+
+    #nav .logo-text {
+      font-size: 20px;
+    }
+
+    #nav .logo a {
+      color: #000 !important;
+    }
+
+    #nav .logo a:hover {
+      color: #10CFEC !important;
+    }
+
+
+    #nav .links {
+      text-align: right;
+      padding-top: 29px;
+    }
+
+    #nav a {
+      padding: 0 10px 0 10px;
+      color: #909090;
+      font-weight: 600;
+      text-decoration: none !important;
+      border-bottom: none;
+      font-size: 14px;
+      letter-spacing: .3px;
+    }
+
+    #nav .logo a {
+      padding-left: 0px;
+      font-size: 20px;
+    }
+
+    #nav a:hover {
+      color: #10CFEC;
+      text-decoration: none;
+    }
+
+
+    /* GENERAL */
+
+    body {
+        font-family: 'Fira Sans', sans-serif;
+        color: #2D2D2D;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    a, a:visited, a:active {
+      color: #10CFEC;
+      font-weight: 600;
+      letter-spacing: .3px;
+    }
+
+    a:hover {
+      color: #10CFEC;
+      text-decoration: underline;
+      letter-spacing: .3px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.55;
+      padding: 8px 0 8px 0;
+    }
+
+    h1 {
+      font-size: 26px;
+      padding-bottom: 12px;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: .3px;
+    }
+
+    h3 {
+      font-size: 18px;
+      padding: 12px 0 12px 0;
+      font-weight: 600;
+      letter-spacing: .3px;
+    }
+
+    #detail-content {
+      padding-top: 35px;
+      margin-bottom: 50px;
+    }
+
+    #detail-content .container {
+      max-width: 800px;
+    }
+
+
+      ul li {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.55;
+        padding-bottom: 5px;
+      }
+
+      ul {
+         padding-left: 20px !important;
+      }
+    
+      .navlinks-mobilevisible {
+        visibility: visible;
+        display: inline-block;
+      }
+      
+      .navlinks-mobilehidden {
+        display: none;
+      }
+      
+
+    /* SIDE NAV */
+    .sidenav {
+  
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: #FFF;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+      -webkit-box-shadow: -8px 0px 14px -2px rgba(212,212,212,.3);
+      -moz-box-shadow: -8px 0px 14px -2px rgba(212,212,212,.3);
+      box-shadow: -8px 0px 14px -2px rgba(212,212,212,.3);
+    }
+    
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #222;
+      display: block;
+      transition: 0.3s;
+      font-weight: 400;
+    }
+    
+    .sidenav a:hover {
+      color: #10CFEC;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      color: #bababa;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+      
+    }
+
+
+      @media screen and (max-width: 576px) {
+          #nav .logo {
+            font-size: 16px;
+            padding-top: 23px;
+          }     
+
+          #nav .logo a {
+            font-size: 16px;
+          }
+      
+          #nav .links {
+            font-size: 13px;
+            padding-top: 26px;
+          }
+
+          #nav a {
+            padding: 0 5px 0 5px;
+          }
+
+          #detail-content {
+            padding-top: 0px;
+          }
+
+          h1 {
+            font-size: 20px;
+            line-height: 1.55;
+            padding-bottom: 0px;
+          }
+
+
+          h3 {
+            font-size: 16px;
+          }
+
+          p {
+            font-size: 15px;
+          }
+
+          ul {
+             padding-left: 17px !important;
+          }
+
+
+          ul li {
+            font-size: 15px;
+            padding-bottom: 5px;
+          }
+
+          .navlinks-mobilevisible {
+            display: none;
+          }
+
+          .navlinks-mobilehidden {
+            display: inline-block !important;
+          }
+
+
+      }
+
+
+      @media screen and (max-width: 992px) {
+
+      }
+
+      @media screen and (min-width: 992px) {
+
+
+      }
